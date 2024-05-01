@@ -10,10 +10,15 @@ What can Python do?
 Python is a versatile programming language that can be used for many tasks, including:
 
 AI & Machine Learning
+
 Data science
+
 Data analytics
+
 Web development
+
 Web scraping
+
 Automation
 
 Why Python?
