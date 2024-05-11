@@ -24,4 +24,5 @@ Stack & Heap memory are the subset of whole memory
 Id function
 
 Id funtion give the memory address of the object where it is stored.
+
 ![alt text](image-1.png)
