@@ -50,41 +50,23 @@ print("This is a line of code.")
 ![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/cd947bd0-65a6-477b-8d1f-bf075f76e58f)
 
 # string
-
-x = "Hello World"	 str
-
+x = "Hello World"	
 # integer
-
-x = 20	 int	
-
+x = 20	 
 # float
-
 x = 20.5	
-
 # complex
-
 x = 1j  
-
 # list
-
 x = ["apple", "banana", "cherry"]  	
-
 # tuple
-
 x = ("apple", "banana", "cherry")	 
-
 # range
-
 x = range(6)	
 # dictionary
-
 x = {"name" : "John", "age" : 36} 	
-
 # set
-
 x = {"apple", "banana", "cherry"} 	
-
 # frozenset
-
 x = frozenset({"apple", "banana", "cherry"}) 
 
