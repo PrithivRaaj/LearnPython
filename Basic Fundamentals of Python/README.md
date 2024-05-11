@@ -69,4 +69,6 @@ x = {"name" : "John", "age" : 36}
 x = {"apple", "banana", "cherry"} 	
 # frozenset
 x = frozenset({"apple", "banana", "cherry"}) 
+# bool
+x = True	
 
