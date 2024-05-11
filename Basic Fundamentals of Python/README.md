@@ -1,4 +1,4 @@
-So here we gonna she about Variables,Data types,Comments,etc..
+So here we gonna see about Variables,Data types,Comments,etc..
 
 # What is Variable ?
 
