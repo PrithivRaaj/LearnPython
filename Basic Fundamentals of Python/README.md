@@ -59,33 +59,32 @@ x = 20	 int
 
 # float
 
-x = 20.5	float
+x = 20.5	
 
-#complex
+# complex
 
-x = 1j  complex	
+x = 1j  
 
-#list
+# list
 
-x = ["apple", "banana", "cherry"]  list	
+x = ["apple", "banana", "cherry"]  	
 
-#tuple
+# tuple
 
-x = ("apple", "banana", "cherry")	 tuple
+x = ("apple", "banana", "cherry")	 
 
-#range
+# range
 
-x = range(6)	 range	
+x = range(6)	
+# dictionary
 
-#dictionary
+x = {"name" : "John", "age" : 36} 	
 
-x = {"name" : "John", "age" : 36} 	dict
+# set
 
-#set
+x = {"apple", "banana", "cherry"} 	
 
-x = {"apple", "banana", "cherry"} 	set	
+# frozenset
 
-#frozenset
-
-x = frozenset({"apple", "banana", "cherry"})  frozenset
+x = frozenset({"apple", "banana", "cherry"}) 
 
