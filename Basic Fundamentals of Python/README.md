@@ -39,6 +39,7 @@ print("Hello, world!")
 
 """
 This is a multi-line comment.
+
 It can span multiple lines.
 """
 
@@ -47,4 +48,15 @@ print("This is a line of code.")
 # Data Types in python
 
 ![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/cd947bd0-65a6-477b-8d1f-bf075f76e58f)
+
+x = "Hello World"--->str	
+x = 20	int	
+x = 20.5	float	
+x = 1j	complex	
+x = ["apple", "banana", "cherry"]	list	
+x = ("apple", "banana", "cherry")	tuple	
+x = range(6)	range	
+x = {"name" : "John", "age" : 36}	dict	
+x = {"apple", "banana", "cherry"}	set	
+x = frozenset({"apple", "banana", "cherry"})
 
