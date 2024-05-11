@@ -49,33 +49,43 @@ print("This is a line of code.")
 
 ![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/cd947bd0-65a6-477b-8d1f-bf075f76e58f)
 
-#string
-x = "Hello World"	str
+# string
 
-#integerin
-x = 20	int	
+x = "Hello World"	 str
 
-#float
+# integer
+
+x = 20	 int	
+
+# float
+
 x = 20.5	float
 
 #complex
-x = 1j	complex	
+
+x = 1j  complex	
 
 #list
-x = ["apple", "banana", "cherry"]	list	
+
+x = ["apple", "banana", "cherry"]  list	
 
 #tuple
-x = ("apple", "banana", "cherry")	tuple
+
+x = ("apple", "banana", "cherry")	 tuple
 
 #range
-x = range(6)	range	
+
+x = range(6)	 range	
 
 #dictionary
-x = {"name" : "John", "age" : 36}	dict
+
+x = {"name" : "John", "age" : 36} 	dict
 
 #set
-x = {"apple", "banana", "cherry"}	set	
+
+x = {"apple", "banana", "cherry"} 	set	
 
 #frozenset
-x = frozenset({"apple", "banana", "cherry"}) frozenset
+
+x = frozenset({"apple", "banana", "cherry"})  frozenset
 
