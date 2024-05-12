@@ -4,3 +4,8 @@ The print() function prints the specified message to the screen, or other standa
 The message can be a string, or any other object, the object will be converted into a string before written to the screen.
 
  print("Hello World")
+
+# Printing Multiple Values 
+
+print("Hello","Emma",12,19.5)
+
