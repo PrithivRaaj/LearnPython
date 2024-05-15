@@ -30,6 +30,7 @@ if condition:
 In conditional if Statement the additional block of code is merged as else statement which is performed when if condition is false. 
 
 Syntax: 
+
 if (condition): 
 
 #Executes this block if 
@@ -44,3 +45,21 @@ else:
 
 
 ![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/11e49ae2-6def-42eb-8789-30f1512ce066)
+
+# Nested if Statement
+if statement can also be checked inside other if statement. This conditional statement is called a nested if statement. This means that inner if condition will be checked only if outer if condition is true and by this, we can see multiple conditions to be satisfied.
+
+Syntax: if (condition1): # Executes when condition1 is true if (condition2): # Executes when condition2 is true # if Block is end here# if Block is end here
+
+
+![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/f20b4dfd-d9fe-4770-b521-4ab52d093734)
+
+# if-elif Statement in Python
+The if-elif statement is shortcut of if..else chain. While using if-elif statement at the end else block is added which is performed if none of the above if-elif statement is true.
+
+Syntax: if (condition): statementelif (condition): statement..else: statement
+
+
+![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/e9ae73ff-c554-4905-9fa3-ce8cad463765)
+
+
