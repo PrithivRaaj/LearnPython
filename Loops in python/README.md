@@ -6,15 +6,20 @@ In Python, a while loop is used to execute a block of statements repeatedly unti
 Python While Loop Syntax:
 
 while expression:
+
     statement(s)
+    
 # Using else statement with While Loop in Python
 The else clause is only executed when your while condition becomes false. If you break out of the loop, or if an exception is raised, it won’t be executed. 
 
 Syntax of While Loop with else statement:
 
 while condition:
+
      # execute these statements
+     
 else:
+
      # execute these statements
 
 # Infinite While Loop in Python
