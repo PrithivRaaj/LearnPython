@@ -5,47 +5,50 @@ In Python, a while loop is used to execute a block of statements repeatedly unti
 
 Python While Loop Syntax:
 
-while expression:
+    while expression:
 
-    statement(s)
+        statement(s)
     
 # Using else statement with While Loop in Python
 The else clause is only executed when your while condition becomes false. If you break out of the loop, or if an exception is raised, it won’t be executed. 
 
 Syntax of While Loop with else statement:
 
-while condition:
+    while condition:
 
-     # execute these statements
+         # execute these statements
      
-else:
+    else:
 
-     # execute these statements
+         # execute these statements
 
 Nested While Loop Syntax:
 
-while expression:
+    while expression:
 
-    while expression: 
-        statement(s)
+        while expression: 
+            statement(s)
         
-    statement(s)
+        statement(s)
 
 # For Loop in Python
 For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is “for in” loop which is similar to foreach loop in other languages.
 
 For Loop Syntax:
 
-for iterator_var in sequence:
+    for iterator_var in sequence:
 
-    statements(s)
+        statements(s)
     
 Nested For Loops Syntax:
 
-for iterator_var in sequence:
     for iterator_var in sequence:
+
+        for iterator_var in sequence:
+    
+            statements(s)
+        
         statements(s)
-    statements(s)
     
 # Loop Control Statements
 Loop control statements change execution from their normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
