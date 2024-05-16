@@ -3,6 +3,9 @@ Python programming language provides two types of Python loopshecking time.Loops
 # While Loop in Python
 In Python, a while loop is used to execute a block of statements repeatedly until a given condition is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed.
 
+![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/87ff84aa-10f1-442e-8d2c-d541cfc161ec)
+
+
 Python While Loop Syntax:
 
     while expression:
@@ -33,6 +36,9 @@ Nested While Loop Syntax:
 
 # For Loop in Python
 For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is “for in” loop which is similar to foreach loop in other languages.
+
+![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/1fb1ce35-69ab-45ae-ad78-1cd0d655f5e6)
+
 
 For Loop Syntax:
 
