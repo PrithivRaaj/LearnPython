@@ -22,8 +22,42 @@ else:
 
      # execute these statements
 
-# Infinite While Loop in Python
+Nested While Loop Syntax:
 
-If we want a block of code to execute infinite number of time, we can use the while loop in Python to do so.
+while expression:
 
-The code uses a ‘while' loop with the condition (count == 0). This loop will only run as long as count is equal to 0. Since count is initially set to 0, the loop will execute indefinitely because the condition is always true.
+   while expression: 
+   
+       statement(s)
+       
+   statement(s)
+
+# For Loop in Python
+For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is “for in” loop which is similar to foreach loop in other languages.
+
+For Loop Syntax:
+
+for iterator_var in sequence:
+
+    statements(s)
+    
+Nested For Loops Syntax:
+
+for iterator_var in sequence:
+
+   for iterator_var in sequence:
+   
+       statements(s)
+       
+   statements(s)
+# Loop Control Statements
+Loop control statements change execution from their normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
+# Continue Statement
+The continue statement in Python returns the control to the beginning of the loop.
+
+# Break Statement
+The break statement in Python brings control out of the loop.
+
+# Pass Statement
+We use pass statement in Python to write empty loops. Pass is also used for empty control statements, functions and classes.
+   
