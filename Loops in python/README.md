@@ -26,11 +26,10 @@ Nested While Loop Syntax:
 
 while expression:
 
-   while expression: 
-   
-       statement(s)
-       
-   statement(s)
+    while expression: 
+        statement(s)
+        
+    statement(s)
 
 # For Loop in Python
 For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is “for in” loop which is similar to foreach loop in other languages.
@@ -44,12 +43,10 @@ for iterator_var in sequence:
 Nested For Loops Syntax:
 
 for iterator_var in sequence:
-
-   for iterator_var in sequence:
-   
-       statements(s)
-       
-   statements(s)
+    for iterator_var in sequence:
+        statements(s)
+    statements(s)
+    
 # Loop Control Statements
 Loop control statements change execution from their normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
 # Continue Statement
