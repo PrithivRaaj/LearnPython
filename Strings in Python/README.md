@@ -4,3 +4,6 @@ A String is a data structure in Python Programming that represents a sequence of
 Python Programming does not have a character data type, a single character is simply a string with a length of 1. Let’s see the Python string syntax:
 
 Syntax of String Data Type in Python
+
+    string_variable = 'Hello, world!'
+
