@@ -55,7 +55,18 @@ Nested For Loops Syntax:
             statements(s)
         
         statements(s)
-    
+# Range Function
+The Python range() function returns a sequence of numbers, in a given range. The most common use of it is to iterate sequences on a sequence of numbers using Python loops.
+
+Syntax: 
+
+    range(start, stop, step)
+
+Parameter :
+
+* start: [ optional ] start value of the sequence
+* stop: next value after the end value of the sequence
+* step: [ optional ] integer value, denoting the difference between any two numbers in the sequence
 # Loop Control Statements
 Loop control statements change execution from their normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
 # Continue Statement
