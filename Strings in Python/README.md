@@ -7,3 +7,6 @@ Syntax of String Data Type in Python
 
     string_variable = 'Hello, world!'
 
+Creating a string in python
+
+Strings in Python can be created using single quotes or double quotes or even triple quotes. 
