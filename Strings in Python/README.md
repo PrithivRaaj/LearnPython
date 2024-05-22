@@ -53,7 +53,7 @@ Python String Template:
 
 The Python string Template is created by passing the template string to its constructor. It supports $-based substitutions. This class has 2 key methods: 
 
-*substitute(mapping, **kwds): This method performs substitutions using a dictionary with a process similar to key-based mapping objects. keyword arguments can also be used for the same purpose. In case the key-based mapping and the keyword arguments have the same key, it throws a TypeError. If keys are missing it returns a KeyError.
-*safe_substitute(mapping, **kwds): The behavior of this method is similar to that of the substitute method but it doesn’t throw a KeyError if a key is missing, rather it returns a placeholder in the result string. 
+ * substitute(mapping, **kwds): This method performs substitutions using a dictionary with a process similar to key-based mapping objects. keyword arguments can also be used for the same purpose. In case the key-based mapping and the keyword arguments have the same key, it throws a TypeError. If keys are missing it returns a KeyError.
+ * safe_substitute(mapping, **kwds): The behavior of this method is similar to that of the substitute method but it doesn’t throw a KeyError if a key is missing, rather it returns a placeholder in the result string. 
  
 The substitute() method raises a KeyError when a placeholder is not supplied in a dictionary or a keyword argument. For mail-merge style applications, user-supplied data may be incomplete and the safe_substitute() method may be more appropriate — it will leave placeholders unchanged if data is missing:
