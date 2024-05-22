@@ -31,3 +31,11 @@ The String Slicing method is used to access a range of characters in the String.
  By accessing characters from a string, we can also reverse strings in Python Programming. We can Reverse a string by using String slicing method.
 # BuildIn Reverse Function in Python
 We can also reverse a string by using built-in join and reversed functions, and passing the string as the parameter to the reversed() function.
+# Deleting/Updating from a String
+In Python, the Updation or deletion of characters from a String is not allowed. This will cause an error because item assignment or item deletion from a String is not supported. Although deletion of the entire String is possible with the use of a built-in del keyword. This is because Strings are immutable, hence elements of a String cannot be changed once assigned. Only new strings can be reassigned to the same name. 
+
+Updating a character
+
+A character of a string can be updated in Python by first converting the string into a Python List and then updating the element in the list. As lists are mutable in nature, we can update the character and then convert the list back into the String.
+
+Another method is using the string slicing method. Slice the string before the character you want to update, then add the new character and finally add the other part of the string again by string slicing.
