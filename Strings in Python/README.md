@@ -6,6 +6,7 @@ A characters can be:
  * Digits(0-9)
  * Whitespace(space)
  * Special Characters(#,@,$,..)
+   
 They can be defined using single or double quotes
 # What is a String in Python?
 Python Programming does not have a character data type, a single character is simply a string with a length of 1. Let’s see the Python string syntax:
