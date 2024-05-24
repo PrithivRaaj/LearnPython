@@ -35,6 +35,8 @@ Strings in Python can be created using single quotes or double quotes or even tr
 
 # String Slicing Python
 The String Slicing method is used to access a range of characters in the String. Slicing in a String is done by using a Slicing operator, i.e., a colon (:).  One thing to keep in mind while using this method is that the string returned after slicing includes the character at the start index but not the character at the last index.
+
+Syntax: slice(start, stop, step)
 # Python String Reversed
  By accessing characters from a string, we can also reverse strings in Python Programming. We can Reverse a string by using String slicing method.
 # BuildIn Reverse Function in Python
