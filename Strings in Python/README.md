@@ -56,26 +56,3 @@ Escape sequences start with a backslash and can be interpreted differently. If s
 # Python String Formatting
 Strings in Python or string data type in Python can be formatted with the use of format() method which is a very versatile and powerful tool for formatting Strings. Format method in String contains curly braces {} as placeholders which can hold arguments according to position or keyword to specify the order.
 
-# String Template Class in Python
-In the String module, Template Class allows us to create simplified syntax for output specification. The format uses placeholder names formed by $ with valid Python identifiers (alphanumeric characters and underscores). Surrounding the placeholder with braces allows it to be followed by more alphanumeric letters with no intervening spaces. Writing $$ creates a single escaped $.
- 
-Python String Template:
-
-The Python string Template is created by passing the template string to its constructor. It supports $-based substitutions. This class has 2 key methods: 
-
- * substitute(mapping, **kwds): This method performs substitutions using a dictionary with a process similar to key-based mapping objects. keyword arguments can also be used for the same purpose. In case the key-based mapping and the keyword arguments have the same key, it throws a TypeError. If keys are missing it returns a KeyError.
- * safe_substitute(mapping, **kwds): The behavior of this method is similar to that of the substitute method but it doesn’t throw a KeyError if a key is missing, rather it returns a placeholder in the result string. 
- 
-The substitute() method raises a KeyError when a placeholder is not supplied in a dictionary or a keyword argument. For mail-merge style applications, user-supplied data may be incomplete and the safe_substitute() method may be more appropriate — it will leave placeholders unchanged if data is missing:
-
-# Printing the template String:
-
-The “template” attribute of the Template object can be used to return the template string.
-
-# Escaping $ Sign:
-
-The $$ can be used to escape $ and treat as part of the string.
-
-# The ${Identifier}:
-
-The ${Identifier} works similar to that of $Identifier. It comes in handy when valid identifier characters follow the placeholder but are not part of the placeholder.
