@@ -55,4 +55,17 @@ While printing Strings with single and double quotes in it causes SyntaxError be
 Escape sequences start with a backslash and can be interpreted differently. If single quotes are used to represent a string, then all the single quotes present in the string must be escaped and the same is done for Double Quotes.
 # Python String Formatting
 Strings in Python or string data type in Python can be formatted with the use of format() method which is a very versatile and powerful tool for formatting Strings. Format method in String contains curly braces {} as placeholders which can hold arguments according to position or keyword to specify the order.
+# String Concatenation
+   * String concatenation is the process of joining two or more strings together and forming one single string.
+   * You can use the + operator, or use a built-in function like str.join() to concatenate two strings.
+# How to Concatenate Strings in Python
+Python String Concatenation is the technique of combining two strings. Let’s look at different ways to concatenate strings:
 
+   * Using + operator
+   * Using join() method
+   * Using % operator
+   * Using format() function
+   * Using “,” (comma)
+   * Using f-string ((Literal String Interpolation))
+# String Methods
+Python string methods is a collection of in-built Python functions that operates on lists.
