@@ -59,4 +59,16 @@ Slice operation is performed on Lists with the use of a colon(:).
       To print the whole list in reverse order, use 
 
                [::-1]
-               
+
+![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/a5c5f21a-b166-4159-a342-e11ab679b1af)
+
+# List Comprehension
+Python List comprehensions are used for creating new lists from other iterables like tuples, strings, arrays, lists, etc. A list comprehension consists of brackets containing the expression, which is executed for each element along with the for loop to iterate over each element. 
+
+Syntax:
+
+    newList = [ expression(element) for element in oldList if condition ]
+# Heterogenous lists
+A list with different datatype is known as heterogenous list
+
+
