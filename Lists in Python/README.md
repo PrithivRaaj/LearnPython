@@ -12,7 +12,7 @@ Python len() is used to get the length of the list.
 # Taking Input of a Python List
 We can take the input of a list of elements as string, integer, float, etc. But the default one is a string.
 # Adding Elements to a Python List
-There are two methods:
+There are three methods:
  * Using append() method
  * Using insert() method
  * Using extend() method
@@ -25,4 +25,38 @@ There are two methods:
    insert() method requires two arguments(position, value). 
   # Using extend() method
    Other than append() and insert() methods, there’s one more method for the Addition of elements, extend(), this method is used to add multiple elements at the same time at the end of the list.
+# Reversing a List
+There are two methods:
+ *  A list can be reversed by using the reverse() method in Python.
+ *  Using the reversed() function (The reversed() function returns a reverse iterator, which can be converted to a list using the list() function.)
+# Removing Elements from the List
+There are two methods:
+ * Using remove() method
+ * Using pop() method
+# Using remove() method
+Elements can be removed from the List by using the built-in remove() function but an Error arises if the element doesn’t exist in the list. Remove() method only removes one element at a time, to remove a range of elements, the iterator is used. The remove() method removes the specified item.
+# Using pop() method
+pop() function can also be used to remove and return an element from the list, but by default it removes only the last element of the list, to remove an element from a specific position of the List, the index of the element is passed as an argument to the pop() method.
+# Slicing of a List
+We can get substrings and sublists using a slice. In Python List, there are multiple ways to print the whole list with all the elements, but to print a specific range of elements from the list, we use the Slice operation. 
 
+Slice operation is performed on Lists with the use of a colon(:). 
+
+   syntax:
+      
+      To print elements from beginning to a range use:
+               
+               [: Index]
+      
+      To print elements from end-use:
+      
+               [:-Index]
+     
+      To print elements from a specific Index till the end use:
+
+               [Index:]
+
+      To print the whole list in reverse order, use 
+
+               [::-1]
+               
