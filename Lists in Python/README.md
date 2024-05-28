@@ -69,6 +69,7 @@ Syntax:
 
     newList = [ expression(element) for element in oldList if condition ]
 # Heterogenous lists
+
 A list with different datatype is known as heterogenous list
 
 
