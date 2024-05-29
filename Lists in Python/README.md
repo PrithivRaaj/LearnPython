@@ -9,8 +9,7 @@ Python Lists are just like dynamically sized arrays, declared in other languages
 In order to access the list items refer to the index number. Use the index operator [ ] to access an item in a list. The index must be an integer. Nested lists are accessed using nested indexing. 
 # Getting the size of Python list
 Python len() is used to get the length of the list.
-# Taking Input of a Python List
-We can take the input of a list of elements as string, integer, float, etc. But the default one is a string.
+
 # Adding Elements to a Python List
 There are three methods:
  * Using append() method
