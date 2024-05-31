@@ -26,11 +26,11 @@ Tuples in Python provide two ways by which we can access the elements of a tuple
 * Using a positive index
 * Using a negative index
 
-Python Access Tuple using a Positive Index
+# Python Access Tuple using a Positive Index
 
 Using square brackets we can get the values from tuples in Python.
 
-Access Tuple using Negative Index
+# Access Tuple using Negative Index
 
 In the above methods, we use the positive index to access the value in Python, and here we will use the negative index within [].
 
