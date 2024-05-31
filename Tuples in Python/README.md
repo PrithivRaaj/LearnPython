@@ -82,3 +82,5 @@ We can convert a list in Python to a tuple by using the tuple() constructor and 
 # Tuples in a Loop
 
 We can also create a tuple with a single element in it using loops.
+# Tuple unpacking
+In Python, there is a very powerful tuple assignment feature that assigns the right-hand side of values into the left-hand side. In another way, it is called unpacking of a tuple of values into a variable. In packing, we put values into a new tuple while in unpacking we extract those values into a single variable.
