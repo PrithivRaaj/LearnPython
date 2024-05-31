@@ -46,4 +46,39 @@ Below are the different operations related to tuples in Python:
 * Multiple Data Types with tuples
 * Conversion of lists to tuples
 * Tuples in a Loop
+  
 Concatenation of Python Tuples
+
+To Concatenation of Python Tuples, we will use plus operators(+).
+
+Nesting of Python Tuples
+
+A nested tuple in Python means a tuple inside another tuple.
+
+Repetition Python Tuples
+
+We can create a tuple of multiple same elements from a single element in that tuple.
+
+Slicing Tuples in Python
+
+Slicing a Python tuple means dividing a tuple into small tuples using the indexing method.
+
+Deleting a Tuple in Python
+
+In this example, we are deleting a tuple using ‘del’ keyword. The output will be in the form of error because after deleting the tuple, it will give a NameError.
+
+Finding the Length of a Python Tuple
+
+To find the length of a tuple, we can use Python’s len() function and pass the tuple as the parameter.
+
+Multiple Data Types With Tuple
+
+Tuples in Python are heterogeneous in nature. This means tuples support elements with multiple datatypes.
+
+Converting a List to a Tuple
+
+We can convert a list in Python to a tuple by using the tuple() constructor and passing the list as its parameters.
+
+Tuples in a Loop
+
+We can also create a tuple with a single element in it using loops.
