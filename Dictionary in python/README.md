@@ -7,7 +7,9 @@ Dictionaries in Python is a data structure, used to store values in key:value fo
   
   * Values in a dictionary can be of any data type and can be duplicated, whereas keys can’t be repeated and must be immutable.
   * A dictionary can also be created by the built-in function dict(). An empty dictionary can be created by just placing curly braces{}.
-  * Note – Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
+  * Note – Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly.
+# Python Dictionary Syntax
+    dict_var = {key1 : value1, key2 : value2, …..}
 # Nested Dictionaries
 ![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/ce827d35-7c26-4151-8dab-d2f0bdfaa147)
 # Adding Elements to a Dictionary
