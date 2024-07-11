@@ -7,3 +7,9 @@ Dictionaries in Python is a data structure, used to store values in key:value fo
   
   * Values in a dictionary can be of any data type and can be duplicated, whereas keys can’t be repeated and must be immutable.
   * A dictionary can also be created by the built-in function dict(). An empty dictionary can be created by just placing curly braces{}.  
+# Nested Dictionaries
+![image](https://github.com/PrithivRaaj/LearnPython/assets/111727780/ce827d35-7c26-4151-8dab-d2f0bdfaa147)
+# Adding Elements to a Dictionary
+ *The addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key e.g. Dict[Key] = ‘Value’.
+ *Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary. 
+ #Note- While adding a value, if the key-value already exists, the value gets updated otherwise a new Key with the value is added to the Dictionary.
