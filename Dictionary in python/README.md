@@ -22,3 +22,13 @@ To access the items of a dictionary refer to its key name. Key can be used insid
 To access the value of any key in the nested dictionary, use indexing [] syntax.
 # Deleting Elements using ‘del’ Keyword
 The items of the dictionary can be deleted by using the del keyword as given below.
+# Change items in dictionary
+You can change the value of a specific item by referring to its key name.
+# Adding Items
+Adding an item to the dictionary is done by using a new index key and assigning a value to it.
+# Removing Items
+ * pop()
+ * popitem()
+ * del
+ * clear()
+# Loop Through a Dictionary
