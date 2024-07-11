@@ -20,3 +20,5 @@ Dictionaries in Python is a data structure, used to store values in key:value fo
 To access the items of a dictionary refer to its key name. Key can be used inside square brackets. 
 # Accessing an Element of a Nested Dictionary
 To access the value of any key in the nested dictionary, use indexing [] syntax.
+# Deleting Elements using ‘del’ Keyword
+The items of the dictionary can be deleted by using the del keyword as given below.
