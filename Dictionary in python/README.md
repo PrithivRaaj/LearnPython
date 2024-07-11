@@ -18,5 +18,5 @@ Dictionaries in Python is a data structure, used to store values in key:value fo
  * Note- While adding a value, if the key-value already exists, the value gets updated otherwise a new Key with the value is added to the Dictionary.
 # Accessing Elements of a Dictionary
 To access the items of a dictionary refer to its key name. Key can be used inside square brackets. 
-   # Accessing an Element of a Nested Dictionary
-     To access the value of any key in the nested dictionary, use indexing [] syntax.
+# Accessing an Element of a Nested Dictionary
+To access the value of any key in the nested dictionary, use indexing [] syntax.
