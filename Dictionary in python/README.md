@@ -36,5 +36,5 @@ Adding an item to the dictionary is done by using a new index key and assigning 
 # Loop Through a Dictionary
 You can loop through a dictionary by using a for loop. When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
 # Dictionary Methods
-![image](https://github.com/user-attachments/assets/71501063-0b05-4c57-a80c-cef668111af2)
+![image](https://github.com/user-attachments/assets/83a9b3ce-e97a-4754-b211-9000b4eedb46)
 
