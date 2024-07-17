@@ -30,3 +30,7 @@ To remove an item in a set, use the remove(), or the discard() method.
 # Join Sets
     # Union
     The union() method returns a new set with all items from both sets.
+    You can use the | operator instead of the union() method, and you will get the same result.
+    # Join Multiple Sets
+    All the joining methods and operators can be used to join multiple sets.
+    When using a method, just add more sets in the parentheses, separated by commas
