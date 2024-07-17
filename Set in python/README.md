@@ -28,10 +28,30 @@ To remove an item in a set, use the remove(), or the discard() method.
 * The clear() method empties the set.
 * The del keyword will delete the set completely.
 # Join Sets
-    # Union
-    The union() method returns a new set with all items from both sets.
-    You can use the | operator instead of the union() method, and you will get the same result.
+# Union
+* The union() method returns a new set with all items from both sets.
+* You can use the | operator instead of the union() method, and you will get the same result.
     
-    # Join Multiple Sets
-    All the joining methods and operators can be used to join multiple sets.
-    When using a method, just add more sets in the parentheses, separated by commas
+# Join Multiple Sets
+* All the joining methods and operators can be used to join multiple sets.
+* When using a method, just add more sets in the parentheses, separated by commas
+# Update
+* The update() method inserts all items from one set into another.
+* The update() changes the original set, and does not return a new set.
+* Note: Both union() and update() will exclude any duplicate items.
+# Intersection
+* Keep ONLY the duplicates
+* The intersection() method will return a new set, that only contains the items that are present in both sets.
+* You can use the & operator instead of the intersection() method, and you will get the same result.
+* The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set.
+* The values True and 1 are considered the same value. The same goes for False and 0.
+# Difference
+* The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.
+* You can use the - operator instead of the difference() method, and you will get the same result.
+* The difference_update() method will also keep the items from the first set that are not in the other set, but it will change the original set instead of returning a new set.
+# Symmetric Differences
+* The symmetric_difference() method will keep only the elements that are NOT present in both sets.
+* You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.
+* The symmetric_difference_update() method will also keep all but the duplicates, but it will change the original set instead of returning a new set.
+# Set Methods
+![image](https://github.com/user-attachments/assets/0ce73e91-9218-49f3-939d-cbbcf94ed68d)
