@@ -21,6 +21,7 @@ Below are the different types of functions in Python:
 
 # Intro to functions: a simple example
 We begin with a simple example of a function. The add_three() function below accepts any number, adds three to it, and then returns the result.
+            
             # Define the function
             def add_three(input_var):
               output_var = input_var + 3
