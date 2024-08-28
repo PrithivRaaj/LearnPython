@@ -18,3 +18,7 @@ Below are the different types of functions in Python:
 
 * Built-in library function: These are Standard functions in Python that are available to use.
 * User-defined function: We can create our own functions based on our requirements.
+
+# Intro to functions: a simple example
+We begin with a simple example of a function. The add_three() function below accepts any number, adds three to it, and then returns the result.
+https://www.kaggle.com/code/alexisbcook/functions?scriptVersionId=126574482&cellId=2
