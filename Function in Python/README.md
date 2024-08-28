@@ -55,10 +55,12 @@ In the code cell below, we run the function with 10 as the input value. We defin
             # Check that the value is 13, as expected
             print(new_number)
 ![image](https://github.com/user-attachments/assets/3618d65b-75fb-46f1-824a-9000939a15f2)
+
 In more detail,
 
 * add_three(10) is the value that we get as output when we supply 10 as the value for input_var and call the add_three() function. When the function runs, it runs all of the code in its body, from top to bottom:
 * It first calculates output_var = input_var + 3, which sets output_var = 13.
 * The final line of code is the return statement, which returns the value of output_var, which is 13.
 * By setting new_number = add_three(10), we set new_number = 13.
+
 Note: When we casually refer to the add_three() function in this tutorial, we use empty closing parentheses after the function name. This is consistent with how people generally write explanations of Python code, and the empty parentheses just make it clear that we are referring to a function, as opposed to a variable or another Python object. These parentheses should always be empty, even if the function has arguments.
